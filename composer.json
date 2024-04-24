@@ -1,0 +1,28 @@
+{
+    "name": "vediansoft/laravel-dynamic-forms",
+    "description": "Package to generate a form based on given values inside a model view",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom van Tilburg",
+            "email": "tjj.van.tilburg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "doctrine/dbal": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vediansoft\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vediansoft\\LaravelDynamicForms\\DynamicFormsServiceProvider"
+            ]
+        }
+    }
+}
